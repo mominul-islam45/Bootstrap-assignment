@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+@font-face {
+    font-family: 'Nexa-Heavy';
+    src: url(nexa-font/Nexa-Heavy.ttf) format('Truetype');
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Quicksand", sans-serif;
+}
+
+:root{
+    --orange: #FE8C45;
+    --purple: #8A47F6;
+}
+
+.nav-title{
+    font-family: "Nexa-Heavy", sans-serif;
+    font-size: 74px;
+    line-height: 92px;
+}
+
+.title{
+    font-family: "Nexa-Heavy", sans-serif;
+    font-size: 48px;
+    line-height: 58px;
+}
+
+.btn-bg{
+    background-color: var(--orange);
+
+
+    &:hover{
+        background-color: #fe4573;
+    }
+}
