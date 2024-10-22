@@ -22,21 +22,35 @@ body{
 
 .nav-title{
     font-family: "Nexa-Heavy", sans-serif;
-    font-size: 74px;
-    line-height: 92px;
+    font-size: 60px;
 }
 
 .title{
     font-family: "Nexa-Heavy", sans-serif;
-    font-size: 48px;
-    line-height: 58px;
 }
 
 .btn-bg{
     background-color: var(--orange);
 
-
     &:hover{
         background-color: #fe4573;
     }
+}
+
+.orange-circle-blur{
+    height: 400px;
+    width: 400px;
+    background-color: var(--orange);
+    border-radius: 50%;
+    filter: blur(100px);
+    opacity: 0.3;
+}
+
+.purple-circle-blur{
+    height: 400px;
+    width: 400px;
+    background-color: var(--purple);
+    border-radius: 50%;
+    filter: blur(100px);
+    opacity: 0.2;
 }
