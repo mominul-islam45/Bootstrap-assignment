@@ -18,6 +18,7 @@ body{
 :root{
     --orange: #FE8C45;
     --purple: #8A47F6;
+    --purple-low-opacity: #F3EDFE;
 }
 
 .nav-title{
